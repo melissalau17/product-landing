@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+header {
+    padding: 15px 50px 0 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    color: #1c1b1b;
+    font-weight: bold;
+    font-size: 17px;
+    height: 76px;
+    margin: auto;
+    z-index: 5;
+  }
+  
+#main {
+  background-color:#FCFCFC;
+  margin: auto;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav {
+    display: inline-block;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li:not(:last-of-type) {
+    margin-right: 40px;
+  }
+
+  body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Brandon Grotesque Light", sans-serif;
+  }
+  
+  #page-wrapper {
+    position: relative;
+    font-family: "Brandon Grotesque Light", sans-serif;
+    letter-spacing: 0.025em;
+    line-height: 20px;
+    box-sizing: border-box;
+  }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  #subscribe {
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #subscribe-img, #subscribe-form {
+    width: 50%;
+  }
+
+  #subscribe-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  #subscribe-form {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  #subscribe form {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-bottom: 5px;
+  }
+
+  #subscribe-form h3 {
+    color: #000;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  
+.input {
+    display: block;
+    padding: 12px 14px;
+    border-radius: 0;
+    border: 1px solid #dddddd;
+    width: 100%;
+    line-height: normal;
+    resize: none;
+    transition: #dddddd .1s ease-in-out;
+    background: transparent;
+    margin: 0 20px;
+    font-family: "Brandon Grotesque Light", sans-serif;
+}
+
+::placeholder { 
+  color: black;
+  font-size: 14px;
+}
+
+button {
+    display: inline-block;
+    position: relative;
+    padding: 14px 28px;
+    border-radius: 0;
+    border: 1px solid black;
+    line-height: normal;
+    resize: none;
+    text-align: center;
+    background: transparent;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    z-index: 1;  
+    font-size: 13px;
+}
+
+button:hover{
+  cursor: pointer;
+  color: #fffde8;
+  transition: 0.5s ease-in-out;
+}
+
+#email {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    font-size: 20px;
+    padding: 10px 40px 10px 0;
+}
+
+#subscribe input[type='email'] {
+  width: 70%;
+  background-color: transparent; 
+  font-size: 15px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+  padding: 15px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.feat-prod {
+  width: calc(100% - 100px);
+  margin-top: 20px;
+  padding: 0 15px;
+}
+
+.img img, .marketing-desc p, .marketing-desc h3 {
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  }
+
+#community {
+  display: flex;
+  flex-direction: row;
+  margin: 10px auto;
+  top: 50%;
+  left: 50%;
+  justify-content: center;
+}
+
+.youtube {
+  margin: 20px;
+}
+
+.part {
+  color: #000;
+  letter-spacing: 2px;
+  font-size: 22px;
+  text-align: center;
+  margin: 10px;
+}
+
+.part:first-of-type {
+  margin-top: 20px;
+}
+
+#gifts {
+    margin: 10px auto 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+  #gifts ul {
+    display: block;
+    list-style-type: none; 
+    line-height: 1.8rem;
+    padding: 0;
+    margin: 10px;
+  }
+
+.gift-sets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  border: 1px solid #ECBAA6;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 330px;
+  border-radius: 10px;
+}
+
+  .gift-title {
+    background-color: #ECBAA6;
+    font-size: 1.4rem;
+    color: #ffffff;
+    border-radius: 9px 9px 0 0;
+    padding: 10px;
+    display: flex;
+  }
+
+  .price, .price-after {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:#ECBAA6;
+    margin-top: 10px;
+  }
+ 
+.price-before {
+  color: #000;
+  text-decoration: line-through;
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+.gift-sets > button {
+  position: absolute;
+  margin-top: 245px;
+}
+
+  footer {
+    background-color: #ECBAA6;
+    padding: 20px 20px 5px 0;
+    line-height: 0.8rem;
+    font-size: 1.0rem;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #foot-menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+
+  footer ul li:not(:first-of-type) {
+    margin-left: 10px;
+  }
+
+  footer ul li:not(:last-of-type) {
+    margin-right: 10px;
+  }
+
+  #foot-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+  #copyright {
+    margin-bottom: 5px;
+  }
+
+  @media (max-width: 960px) {
+    #subscribe-img {
+      display: none;
+    }
+  
+    #subscribe {
+      min-width: 200px;
+      height: 200px;
+    }
+  
+    #main {
+      margin-top: 100px;
+    }
+  
+    #subscribe-form {
+      width: 100%;
+    }
+
+   #shop {
+    margin-bottom: 20px;
+  }
+
+  .gift-sets {
+    width: 100%;
+    max-width: 370px;
+    margin: 10px;
+  }
+
+  #gifts, #community {
+    flex-direction: column;
+    align-items: center;
+  }
+  }
+
+@media (max-width: 610px) {
+  header {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #nav-bar {
+    background: #ECBAA6;
+    width: 100%;
+  }
+
+  #nav-bar a {
+   color: #ffffff;
+  }
+
+  #main {
+    margin-top: 150px;
+  }
+
+  nav ul {
+    justify-content: center;
+  }
+
+  #video-2 {
+    margin-bottom: 5px;
+  }
+  } 

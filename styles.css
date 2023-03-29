@@ -310,6 +310,10 @@ button:hover{
   }
 
   @media (max-width: 960px) {
+    body {
+      font-family: "Brandon Grotesque Light", sans-serif;
+    }
+      
     #subscribe-img {
       display: none;
     }

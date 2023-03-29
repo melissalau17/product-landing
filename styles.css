@@ -1,9 +1,5 @@
-@import url('https://fonts.cdnfonts.com/css/brandon-grotesque-regular');
+@import url('https://fonts.googleapis.com/css?family=Josefin Sans');
 
- @font-face { 
-     font-family: "Brandon Grotesque Light";
-     src:url(https://fonts.cdnfonts.com/css/brandon-grotesque-regular);
- } 
 
 * {
     margin: 0;
@@ -58,12 +54,12 @@ nav ul li:not(:last-of-type) {
 
   body {
     background-color: rgb(255, 255, 255);
-    font-family: "Brandon Grotesque Light", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
   }
   
   #page-wrapper {
     position: relative;
-    font-family: "Brandon Grotesque Light", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     letter-spacing: 0.025em;
     line-height: 20px;
     box-sizing: border-box;
@@ -124,7 +120,7 @@ nav ul li:not(:last-of-type) {
     transition: #dddddd .1s ease-in-out;
     background: transparent;
     margin: 0 20px;
-    font-family: "Brandon Grotesque Light", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 ::placeholder { 
@@ -311,9 +307,6 @@ button:hover{
   }
 
   @media (max-width: 960px) {
-    body {
-      font-family: "Brandon Grotesque Light", sans-serif;
-    }
       
     #subscribe-img {
       display: none;

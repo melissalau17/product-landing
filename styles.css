@@ -2,9 +2,9 @@
 
 @font-face {
     font-family: brandon grotesque light;
-    font-style: italic;
+    font-style: normal;
     font-weight: 330;
-    src: local('Brandon Grotesque Light'),url(https://fonts.cdnfonts.com/s/14480/brandon-grotesque-light-italic-58a8a4ccb88be.woff) format('woff')
+    src: local('Brandon Grotesque Light'),url(https://fonts.cdnfonts.com/s/14480/brandon-grotesque-light-58a8a4b38001d.woff) format('woff')
 }
 
 * {

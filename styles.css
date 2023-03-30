@@ -1,12 +1,6 @@
-
-
 @font-face {
   font-family: Brandon Grotesque;
   src: url('Brandon Grotesque Light.ttf'); 
-  }
-  
-  body{
-  font-family: Brandon Grotesque;
   }
 
 * {
@@ -62,12 +56,12 @@ nav ul li:not(:last-of-type) {
 
   body {
     background-color: rgb(255, 255, 255);
-    font-family: brandon grotesque light;
+    font-family: Brandon Grotesque;
   }
   
   #page-wrapper {
     position: relative;
-    font-family: brandon grotesque light;
+    font-family: Brandon Grotesque;
     letter-spacing: 0.025em;
     line-height: 20px;
     box-sizing: border-box;
@@ -128,7 +122,7 @@ nav ul li:not(:last-of-type) {
     transition: #dddddd .1s ease-in-out;
     background: transparent;
     margin: 0 20px;
-    font-family: brandon grotesque light;
+    font-family: Brandon Grotesque;
 }
 
 ::placeholder { 

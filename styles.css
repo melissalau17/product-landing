@@ -1,10 +1,10 @@
-@import url('https://github.com/melissalau17/product-landing/blob/main/brandon-grotesque-light-58a8a4b38001d%20(2).woff');
+@import url('https://github.com/melissalau17/product-landing/blob/main/brandon-grotesque-light-58a8a4b38001d%20.woff');
 
 @font-face {
     font-family: brandon grotesque light;
     font-style: normal;
     font-weight: 330;
-    src: local('Brandon Grotesque Light'),url(https://melissalau17.github.io/product-landing/brandon-grotesque-light-58a8a4b38001d (2).woff) format('woff')
+    src: local('Brandon Grotesque Light'),url(https://melissalau17.github.io/product-landing/brandon-grotesque-light-58a8a4b38001d.woff) format('woff')
 }
 
 * {

@@ -141,7 +141,7 @@ button {
     border-radius: 0;
     border: 1px solid black;
     line-height: normal;
-    resize: none;
+    min-width: 100px;
     text-align: center;
     background: transparent;
     letter-spacing: .2em;
@@ -336,13 +336,16 @@ button:hover{
 
   .gift-sets {
     width: 100%;
-    max-width: 370px;
+    max-width: 365px;
     margin: 10px;
   }
 
   #gifts, #community {
     flex-direction: column;
     align-items: center;
+      
+  .gift-sets > button {
+  color: #000000;
   }
   }
 

@@ -135,7 +135,7 @@ nav ul li:not(:last-of-type) {
 }
 
 button {
-    display: inline-block;
+    display: block;
     position: relative;
     padding: 14px 28px;
     border-radius: 0;
@@ -150,6 +150,7 @@ button {
     font-size: 13px;
     color: #000000;
     font-family: brandon grotesque light;
+    float: none;
 }
 
 button:hover{

@@ -142,7 +142,7 @@ button {
     border: 1px solid black;
     line-height: normal;
     min-width: 50px;
-    content-align: center;
+    text-align: center;
     background: transparent;
     letter-spacing: .2em;
     text-transform: uppercase;

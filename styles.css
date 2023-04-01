@@ -141,7 +141,6 @@ button {
     border-radius: 0;
     border: 1px solid black;
     line-height: normal;
-    min-width: 50px;
     text-align: center;
     background: transparent;
     letter-spacing: .2em;
@@ -327,9 +326,9 @@ button:hover{
       
     button {
     text-align: center;
-    font-size: 10px;
+    font-size: 13px;
     font-family: brandon grotesque light;
-    margin-right: 10px;
+    width: 50px;
     }
       
     #main {

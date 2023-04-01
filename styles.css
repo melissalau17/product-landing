@@ -142,13 +142,14 @@ button {
     border: 1px solid black;
     line-height: normal;
     min-width: 50px;
-    text-align: center;
+    content-align: center;
     background: transparent;
     letter-spacing: .2em;
     text-transform: uppercase;
     z-index: 1;  
     font-size: 13px;
     color: #000000;
+    font-family: brandon grotesque light;
 }
 
 button:hover{
@@ -322,7 +323,12 @@ button:hover{
       min-width: 200px;
       height: 200px;
     }
-  
+      
+    button {
+    text-align: center;
+    font-size: 12px;
+    font-family: brandon grotesque light;
+}
     #main {
       margin-top: 100px;
     }

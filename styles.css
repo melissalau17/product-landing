@@ -388,8 +388,8 @@ button:hover{
     margin-bottom: 5px;
   }
     
-   #subscribe-form button {
-    font-size: 11px;
-    padding: 0px;
+   #subscribe-form > button {
+    font-size: 9px;
+    padding: 2px;
     }
   } 

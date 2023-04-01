@@ -325,14 +325,14 @@ button:hover{
       height: 200px;
     }
       
-    #subscribe-form > button {
-    font-size: 11px;
-    padding: 4px;
-    }
-      
-   button {
+    button {
     font-size: 13px;
     font-family: brandon grotesque light;
+    } 
+     
+    #subscribe-form button {
+    font-size: 11px;
+    padding: 4px;
     }
       
     #main {

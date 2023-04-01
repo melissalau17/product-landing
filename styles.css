@@ -387,4 +387,9 @@ button:hover{
   #video-2 {
     margin-bottom: 5px;
   }
+    
+   #subscribe-form button {
+    font-size: 11px;
+    padding: 0px;
+    }
   } 

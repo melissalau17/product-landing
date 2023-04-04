@@ -36,6 +36,10 @@ header {
   margin: auto;
 }
 
+#header-img {
+   cursor: pointer; 
+}
+
 .logo {
     width: 100px;
 }

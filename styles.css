@@ -326,6 +326,12 @@ button:hover{
     margin-bottom: 5px;
   }
 
+@media (max-width: 1200px) {
+    #subscribe-form button {
+    padding: 14px;
+    } 
+}     
+
   @media (max-width: 960px) {
     #subscribe-img {
       display: none;
@@ -347,7 +353,6 @@ align-content: center;
      
     #subscribe-form button {
     font-size: 11px;
-    padding: 4px;
     }
       
     #main {

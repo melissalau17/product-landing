@@ -328,7 +328,6 @@ button:hover{
 
  @media (min-width: 960px) {
      #subscribe-form button {
-    font-size: 12px;
     padding: 4px;
     }
 }
@@ -377,16 +376,14 @@ nav ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 70%;
 }
       
-  .gift-sets, .content {
+  .gift-sets {
     width: 100%;
     max-width: 360px;
+    margin: 10px;
   }
-      
-  .gift-sets {
-      margin: 10px;
-      }
 
   #gifts, #community {
     flex-direction: column;

@@ -146,6 +146,7 @@ button {
     border: 1px solid black;
     line-height: normal;
     text-align: center;
+    align-content: center;
     background: transparent;
     letter-spacing: .2em;
     text-transform: uppercase;
@@ -405,6 +406,7 @@ nav ul {
 .content {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
   #video-2 {

@@ -401,6 +401,11 @@ nav ul {
   nav ul {
     justify-content: center;
   }
+    
+.content {
+  display: flex;
+  flex-direction: column;
+}
 
   #video-2 {
     margin-bottom: 5px;

@@ -141,7 +141,7 @@ nav ul li:not(:last-of-type) {
 button {
     display: inline-block;
     position: relative;
-    padding: 14px 28px;
+    padding: 14px;
     border-radius: 0;
     border: 1px solid black;
     line-height: normal;
@@ -326,12 +326,6 @@ button:hover{
     margin-bottom: 5px;
   }
 
- @media (min-width: 960px) {
-     #subscribe-form button {
-    padding: 4px;
-    }
-}
-
   @media (max-width: 960px) {
     #subscribe-img {
       display: none;
@@ -371,13 +365,7 @@ nav ul {
    #shop {
     margin-bottom: 20px;
   }
-      
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 70%;
-}
+
       
   .gift-sets {
     width: 100%;
@@ -389,6 +377,14 @@ nav ul {
     flex-direction: column;
     align-items: center;
   }
+}
+
+@media (max-width: 800px) {
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 }
 
 @media (max-width: 610px) {

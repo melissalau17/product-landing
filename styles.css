@@ -326,6 +326,13 @@ button:hover{
     margin-bottom: 5px;
   }
 
+ @media (min-width: 960px) {
+     #subscribe-form button {
+    font-size: 12px;
+    padding: 4px;
+    }
+}
+
   @media (max-width: 960px) {
     #subscribe-img {
       display: none;
@@ -372,11 +379,14 @@ nav ul {
   align-items: center;
 }
       
-  .gift-sets {
+  .gift-sets, .content {
     width: 100%;
     max-width: 360px;
-    margin: 10px;
   }
+      
+  .gift-sets {
+      margin: 10px;
+      }
 
   #gifts, #community {
     flex-direction: column;

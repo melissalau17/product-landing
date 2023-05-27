@@ -427,3 +427,9 @@ nav ul {
     padding: 3px;
     }
   } 
+
+@media (max-width: 610px) {
+      #subscribe-form > button 
+    padding: 5px;
+    }
+}

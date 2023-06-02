@@ -424,12 +424,11 @@ nav ul {
     
    #subscribe-form > button {
     font-size: 11px;
-    padding: 3px;
+    padding: 5.5px;
     }
   } 
 
-@media (max-width: 610px) {
-      #subscribe-form > button 
-    padding: 5px;
-    }
+@media (max-width: 460px) {
+    nav ul {
+      justify-content: center;
 }
